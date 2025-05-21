@@ -10,20 +10,14 @@ public class DetachOnceVisible : MonoBehaviour
 
     void Update()
     {
-        var anchorPose = tracker.AnchorPoseCameraRelative();
-
-        // Проверка: трекер обнаружил изображение
-        if (!hasDetached && anchorPose != Matrix4x4.identity)
+        if (!hasDetached && tracker.AnchorPoseCameraRelative() != Matrix4x4.identity)
         {
-            // Открепляем контент от трекера
             trackedContent.SetParent(null, true);
-
-            // Отключаем сам трекер, если не нужен
             tracker.enabled = false;
             tracker.gameObject.SetActive(false);
-
             hasDetached = true;
-            Debug.Log("✅ Контент откреплён от трекера и теперь независим");
+
+            Debug.Log("✅ Откреплено от трекера");
         }
     }
 }
