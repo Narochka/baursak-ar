@@ -11,11 +11,16 @@ public class DetachOnceSeen : MonoBehaviour
 
     void Update()
     {
-        // Вызов метода AnchorPoseCameraRelative()
         if (!hasDetached && ImageTracker.AnchorPoseCameraRelative() != Matrix4x4.zero)
         {
-            Debug.Log("🟢 Target detected — detaching content.");
+            Debug.Log("🟢 Target detected — detaching and deactivating tracker");
+
+            // Открепляем контент от трекера
             TrackedContent.transform.SetParent(WorldAnchor, true);
+
+            // Деактивируем сам трекер, чтобы он больше не прятал объекты
+            ImageTracker.gameObject.SetActive(false);
+
             hasDetached = true;
         }
     }
