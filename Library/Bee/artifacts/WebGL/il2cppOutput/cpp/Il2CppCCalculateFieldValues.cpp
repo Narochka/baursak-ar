@@ -17855,6 +17855,19 @@ struct AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E  : public MonoB
 	bool ___hasAnchored_5;
 };
 
+// DetachOnceSeen
+struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Zappar.ZapparImageTrackingTarget DetachOnceSeen::imageTracker
+	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___imageTracker_4;
+	// UnityEngine.GameObject DetachOnceSeen::trackedContent
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trackedContent_5;
+	// UnityEngine.Transform DetachOnceSeen::worldAnchor
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___worldAnchor_6;
+	// System.Boolean DetachOnceSeen::hasCopied
+	bool ___hasCopied_7;
+};
+
 // Zappar.Examples.RandomColor
 struct RandomColor_tBE469BCDE123BB5AAAA51B62B4F00CE83614AD8C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -25206,6 +25219,10 @@ struct RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_StaticFields
 
 // AnchorARContent
 
+// DetachOnceSeen
+
+// DetachOnceSeen
+
 // Zappar.Examples.RandomColor
 
 // Zappar.Examples.RandomColor
@@ -28926,3 +28943,6 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2033[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2041[2] = 
 {
 	static_cast<int32_t>(offsetof(AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E, ___imageTracker_4)),static_cast<int32_t>(offsetof(AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E, ___hasAnchored_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2042[4] = 
+{
+	static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___imageTracker_4)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___trackedContent_5)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___worldAnchor_6)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___hasCopied_7)),};

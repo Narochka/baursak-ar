@@ -1,6 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AnchorARContent" preserve="nothing"/>
+		<type fullname="DetachOnceSeen" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine">
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>

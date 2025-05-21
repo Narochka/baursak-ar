@@ -325,6 +325,7 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Zappar.UAR.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Zappar.UAR.ref.dll"
 "Assets/Scripts/AnchorARContent.cs"
+"Assets/Scripts/DetachOnceSeen.cs"
 -langversion:9.0
 
 /deterministic

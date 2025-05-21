@@ -21863,6 +21863,19 @@ struct AudioListener_t1D629CE9BC079C8ECDE8F822616E8A8E319EAE35  : public AudioBe
 {
 };
 
+// DetachOnceSeen
+struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Zappar.ZapparImageTrackingTarget DetachOnceSeen::imageTracker
+	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___imageTracker_4;
+	// UnityEngine.GameObject DetachOnceSeen::trackedContent
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trackedContent_5;
+	// UnityEngine.Transform DetachOnceSeen::worldAnchor
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___worldAnchor_6;
+	// System.Boolean DetachOnceSeen::hasCopied
+	bool ___hasCopied_7;
+};
+
 // System.IO.DirectoryInfo
 struct DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
 {
@@ -31965,6 +31978,10 @@ struct RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_StaticFields
 
 // UnityEngine.AudioListener
 
+// DetachOnceSeen
+
+// DetachOnceSeen
+
 // System.IO.DirectoryInfo
 
 // System.IO.DirectoryInfo
@@ -36198,11 +36215,13 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize2040 = { sizeof(U3CModuleU3E
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2041;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2041 = { sizeof(AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2042;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2042 = { 0, sizeof(Il2CppIActivationFactory*), 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2042 = { sizeof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2043;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2043 = { sizeof(Il2CppComObject), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2043 = { 0, sizeof(Il2CppIActivationFactory*), 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2044;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2044 = { sizeof(__Il2CppComDelegate_tD0DD2BBA6AC8F151D32B6DFD02F6BDA339F8DC4D), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2044 = { sizeof(Il2CppComObject), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2045;
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2045 = { sizeof(__Il2CppComDelegate_tD0DD2BBA6AC8F151D32B6DFD02F6BDA339F8DC4D), -1, 0, 0 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
