@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AnchorARContent
+    - DetachARScene
     - DetachOnceSeen
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -78,6 +79,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 25232}
     - Class: 114
       Script: {instanceID: 25732}
+    - Class: 114
+      Script: {instanceID: 27630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -977,6 +980,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DetachOnceSeen
+  - hash:
+      serializedVersion: 2
+      Hash: 670a9ccd5111511de260e32c681d7a2d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DetachARScene
   platform: 20
   scenePathNames:
   - Assets/Samples/Universal AR/3.2.10/Examples/ImageTracker.unity

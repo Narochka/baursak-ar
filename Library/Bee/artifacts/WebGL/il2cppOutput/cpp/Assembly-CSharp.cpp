@@ -40,6 +40,8 @@ struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
 // System.DelegateData
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// DetachARScene
+struct DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206;
 // DetachOnceSeen
 struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8;
 // UnityEngine.GameObject
@@ -72,16 +74,21 @@ struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // Zappar.ZapparImageTrackingTarget
 struct ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97;
+// DetachARScene/<DetachAndFreeze>d__4
+struct U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB;
 // DetachOnceSeen/<DetachNextFrame>d__5
 struct U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3;
 
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral3496D1628937727C82F5D5336C5867702A3654EA;
 IL2CPP_EXTERN_C String_t* _stringLiteral8DDC65765F90B211218105CA1C0119866FF78034;
 IL2CPP_EXTERN_C String_t* _stringLiteralE7A55FDD1D3208833093007ED852B2D7ED4B3E78;
 IL2CPP_EXTERN_C const RuntimeMethod* AnchorARContent_HandleSeen_mCC51ED4C20A0D90BDDC233F6AC022086AAFF601C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDetachAndFreezeU3Ed__4_System_Collections_IEnumerator_Reset_mD70875908AD0688D55158959F4C2C9D40C65C7D5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDetachNextFrameU3Ed__5_System_Collections_IEnumerator_Reset_m4567EDF37D146A9529DB826D1504825413FF785B_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -147,6 +154,17 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinv
 // Native definition for COM marshalling of UnityEngine.YieldInstruction
 struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
+};
+
+// DetachARScene/<DetachAndFreeze>d__4
+struct U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB  : public RuntimeObject
+{
+	// System.Int32 DetachARScene/<DetachAndFreeze>d__4::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object DetachARScene/<DetachAndFreeze>d__4::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// DetachARScene DetachARScene/<DetachAndFreeze>d__4::<>4__this
+	DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* ___U3CU3E4__this_2;
 };
 
 // DetachOnceSeen/<DetachNextFrame>d__5
@@ -508,6 +526,17 @@ struct AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E  : public MonoB
 	bool ___hasAnchored_5;
 };
 
+// DetachARScene
+struct DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Zappar.ZapparImageTrackingTarget DetachARScene::imageTracker
+	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___imageTracker_4;
+	// UnityEngine.GameObject DetachARScene::contentRoot
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___contentRoot_5;
+	// System.Boolean DetachARScene::sceneStarted
+	bool ___sceneStarted_6;
+};
+
 // DetachOnceSeen
 struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -563,6 +592,10 @@ struct String_t_StaticFields
 };
 
 // System.String
+
+// DetachARScene/<DetachAndFreeze>d__4
+
+// DetachARScene/<DetachAndFreeze>d__4
 
 // DetachOnceSeen/<DetachNextFrame>d__5
 
@@ -643,6 +676,10 @@ struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
 
 // AnchorARContent
 
+// DetachARScene
+
+// DetachARScene
+
 // DetachOnceSeen
 
 // DetachOnceSeen
@@ -674,14 +711,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_get_zero_m5D5F0475AD231C2C6BE5A9C80E11E24013B1B827 (const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Matrix4x4::op_Inequality(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Matrix4x4_op_Inequality_m318CC0235679529F15B2C56E0896E70A2BD62713_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_lhs, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_rhs, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
-// System.Collections.IEnumerator DetachOnceSeen::DetachNextFrame()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DetachOnceSeen_DetachNextFrame_mC6F9836B42D14EB2F40BA953A003E0663408E155 (DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8* __this, const RuntimeMethod* method) ;
+// System.Collections.IEnumerator DetachARScene::DetachAndFreeze()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DetachARScene_DetachAndFreeze_m6898F74B1CE91DC1DF728C9F76A019AD1A3664AD (DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* __this, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
-// System.Void DetachOnceSeen/<DetachNextFrame>d__5::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetachNextFrameU3Ed__5__ctor_m493EED23B8D8B88A4DF6918A3A634603A0E09A65 (U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+// System.Void DetachARScene/<DetachAndFreeze>d__4::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetachAndFreezeU3Ed__4__ctor_m6C9DBD71BA2CEEB5BF050B1C410C927439B28DBA (U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.GameObject::get_transform()
@@ -690,8 +725,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GameObject::SetActive(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+// System.Collections.IEnumerator DetachOnceSeen::DetachNextFrame()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DetachOnceSeen_DetachNextFrame_mC6F9836B42D14EB2F40BA953A003E0663408E155 (DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8* __this, const RuntimeMethod* method) ;
+// System.Void DetachOnceSeen/<DetachNextFrame>d__5::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetachNextFrameU3Ed__5__ctor_m493EED23B8D8B88A4DF6918A3A634603A0E09A65 (U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Matrix4x4::op_Equality(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Matrix4x4_op_Equality_m72E9702E42EAED862E9D7EA1B8B9D6EA5AAC5C3D (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_lhs, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_rhs, const RuntimeMethod* method) ;
 #ifdef __clang__
@@ -760,6 +801,196 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorARContent__ctor_m5C07E44C904EDE3F2
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void DetachARScene::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachARScene_Update_m2BA9CA1B302F0951F7092786DA79E58BD499B549 (DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (!sceneStarted && imageTracker.AnchorPoseCameraRelative() != Matrix4x4.zero)
+		bool L_0 = __this->___sceneStarted_6;
+		if (L_0)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* L_1 = __this->___imageTracker_4;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_2;
+		L_2 = VirtualFuncInvoker0< Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 >::Invoke(4 /* UnityEngine.Matrix4x4 Zappar.ZapparTrackingTarget::AnchorPoseCameraRelative() */, L_1);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_3;
+		L_3 = Matrix4x4_get_zero_m5D5F0475AD231C2C6BE5A9C80E11E24013B1B827(NULL);
+		bool L_4;
+		L_4 = Matrix4x4_op_Inequality_m318CC0235679529F15B2C56E0896E70A2BD62713_inline(L_2, L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		// StartCoroutine(DetachAndFreeze());
+		RuntimeObject* L_5;
+		L_5 = DetachARScene_DetachAndFreeze_m6898F74B1CE91DC1DF728C9F76A019AD1A3664AD(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
+		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
+		// sceneStarted = true;
+		__this->___sceneStarted_6 = (bool)1;
+	}
+
+IL_0033:
+	{
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator DetachARScene::DetachAndFreeze()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DetachARScene_DetachAndFreeze_m6898F74B1CE91DC1DF728C9F76A019AD1A3664AD (DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB* L_0 = (U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB*)il2cpp_codegen_object_new(U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB_il2cpp_TypeInfo_var);
+		U3CDetachAndFreezeU3Ed__4__ctor_m6C9DBD71BA2CEEB5BF050B1C410C927439B28DBA(L_0, 0, NULL);
+		U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB* L_1 = L_0;
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
+// System.Void DetachARScene::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachARScene__ctor_m85D8A9A510CFFDE1CAAEF8C3F91E0783FEC23A2B (DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void DetachARScene/<DetachAndFreeze>d__4::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetachAndFreezeU3Ed__4__ctor_m6C9DBD71BA2CEEB5BF050B1C410C927439B28DBA (U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void DetachARScene/<DetachAndFreeze>d__4::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetachAndFreezeU3Ed__4_System_IDisposable_Dispose_mE68EDA874A29E8BF1B20037ACE032375A3486293 (U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean DetachARScene/<DetachAndFreeze>d__4::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDetachAndFreezeU3Ed__4_MoveNext_m2397C289BA2FC8D7F082D2DA7491B1DC13DB2FAD (U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3496D1628937727C82F5D5336C5867702A3654EA);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// yield return null; // ???? 1 ????, ????? Unity ????? ???????????
+		__this->___U3CU3E2__current_1 = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_002e:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// contentRoot.transform.SetParent(null, true);
+		DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* L_4 = V_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___contentRoot_5;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
+		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_6, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, (bool)1, NULL);
+		// imageTracker.gameObject.SetActive(false);
+		DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* L_7 = V_1;
+		ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* L_8 = L_7->___imageTracker_4;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)0, NULL);
+		// Debug.Log("? ??????? ??????????, ?????? ????????");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3496D1628937727C82F5D5336C5867702A3654EA, NULL);
+		// }
+		return (bool)0;
+	}
+}
+// System.Object DetachARScene/<DetachAndFreeze>d__4::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDetachAndFreezeU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8FD8CAF7DF70440287DB3DCB13DC2F7238AF247C (U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void DetachARScene/<DetachAndFreeze>d__4::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetachAndFreezeU3Ed__4_System_Collections_IEnumerator_Reset_mD70875908AD0688D55158959F4C2C9D40C65C7D5 (U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDetachAndFreezeU3Ed__4_System_Collections_IEnumerator_Reset_mD70875908AD0688D55158959F4C2C9D40C65C7D5_RuntimeMethod_var)));
+	}
+}
+// System.Object DetachARScene/<DetachAndFreeze>d__4::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDetachAndFreezeU3Ed__4_System_Collections_IEnumerator_get_Current_mB0052E289D8FCBD0E3B88F7981089E2F61B359CA (U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
 	}
 }
 #ifdef __clang__

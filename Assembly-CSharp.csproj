@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/AnchorARContent.cs" />
     <Compile Include="Assets/Scripts/DetachOnceSeen.cs" />
+    <Compile Include="Assets/Scripts/DetachARScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

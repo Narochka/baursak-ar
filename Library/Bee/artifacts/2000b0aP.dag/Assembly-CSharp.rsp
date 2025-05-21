@@ -280,6 +280,7 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Zappar.UAR.ref.dll"
 "Assets/Scripts/AnchorARContent.cs"
+"Assets/Scripts/DetachARScene.cs"
 "Assets/Scripts/DetachOnceSeen.cs"
 -langversion:9.0
 
