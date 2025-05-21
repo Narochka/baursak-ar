@@ -504,8 +504,6 @@ struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
 struct DeserializationEventHandler_t69A452A1DAD6B8D35D35D800CE2F2C9D156AF2B5;
 // DetachARScene
 struct DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206;
-// DetachOnceSeen
-struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8;
 // UnityEngine.Networking.DownloadHandler
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB;
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
@@ -4603,17 +4601,6 @@ struct U3CDetachAndFreezeU3Ed__4_t168786CD6C694996201BF8EC9E773E41405B86BB  : pu
 	RuntimeObject* ___U3CU3E2__current_1;
 	// DetachARScene DetachARScene/<DetachAndFreeze>d__4::<>4__this
 	DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206* ___U3CU3E4__this_2;
-};
-
-// DetachOnceSeen/<DetachNextFrame>d__5
-struct U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3  : public RuntimeObject
-{
-	// System.Int32 DetachOnceSeen/<DetachNextFrame>d__5::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object DetachOnceSeen/<DetachNextFrame>d__5::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// DetachOnceSeen DetachOnceSeen/<DetachNextFrame>d__5::<>4__this
-	DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8* ___U3CU3E4__this_2;
 };
 
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg
@@ -17895,14 +17882,12 @@ struct DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206  : public MonoBeh
 // DetachOnceSeen
 struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// Zappar.ZapparImageTrackingTarget DetachOnceSeen::ImageTracker
-	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___ImageTracker_4;
-	// UnityEngine.GameObject DetachOnceSeen::TrackedContent
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___TrackedContent_5;
-	// UnityEngine.Transform DetachOnceSeen::WorldAnchor
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___WorldAnchor_6;
+	// Zappar.ZapparImageTrackingTarget DetachOnceSeen::imageTracker
+	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___imageTracker_4;
+	// UnityEngine.GameObject DetachOnceSeen::contentRoot
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___contentRoot_5;
 	// System.Boolean DetachOnceSeen::hasDetached
-	bool ___hasDetached_7;
+	bool ___hasDetached_6;
 };
 
 // Zappar.Examples.RandomColor
@@ -20954,10 +20939,6 @@ struct U3CU3Ec_tAF2F613E4FF47CAC6DBA56BEC5C5B2884B36E278_StaticFields
 // DetachARScene/<DetachAndFreeze>d__4
 
 // DetachARScene/<DetachAndFreeze>d__4
-
-// DetachOnceSeen/<DetachNextFrame>d__5
-
-// DetachOnceSeen/<DetachNextFrame>d__5
 
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg
 
@@ -28997,10 +28978,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2033[3] =
 	static_cast<int32_t>(offsetof(DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206, ___imageTracker_4)),static_cast<int32_t>(offsetof(DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206, ___contentRoot_5)),static_cast<int32_t>(offsetof(DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206, ___sceneStarted_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2034[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3, ___U3CU3E4__this_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2035[4] = 
-{
-	static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___ImageTracker_4)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___TrackedContent_5)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___WorldAnchor_6)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___hasDetached_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2039[4] = 
+	static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___imageTracker_4)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___contentRoot_5)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___hasDetached_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2038[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};

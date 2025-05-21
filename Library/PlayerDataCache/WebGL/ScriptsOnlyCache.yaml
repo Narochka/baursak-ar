@@ -1,8 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AnchorARContent
-    - DetachARScene
     - DetachOnceSeen
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -76,11 +74,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5174}
     - Class: 114
-      Script: {instanceID: 25232}
-    - Class: 114
       Script: {instanceID: 25732}
-    - Class: 114
-      Script: {instanceID: 27630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -976,7 +970,7 @@ ScriptsOnlyBuild:
     className: AnchorARContent
   - hash:
       serializedVersion: 2
-      Hash: 033ca894df9c8811ad1293bda7690a57
+      Hash: 7a339c34865241ccd0edba183ea45ac5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DetachOnceSeen
