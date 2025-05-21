@@ -3,8 +3,6 @@
 		<type fullname="UnityEngine.GameObject">
 			<method name="SetActive"/>
 			<method name="SetActive"/>
-			<method name="SetActive"/>
-			<method name="SetActive"/>
 		</type>
 	</assembly>
 </linker>

@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DetachARScene
     - DetachOnceSeen
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -21,12 +22,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
   methodsToPreserve:
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -75,6 +70,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5174}
     - Class: 114
       Script: {instanceID: 25732}
+    - Class: 114
+      Script: {instanceID: 27630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -976,7 +973,7 @@ ScriptsOnlyBuild:
     className: DetachOnceSeen
   - hash:
       serializedVersion: 2
-      Hash: 670a9ccd5111511de260e32c681d7a2d
+      Hash: 24b1f64da7fd6176d37dcedcea7a6b0d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DetachARScene
