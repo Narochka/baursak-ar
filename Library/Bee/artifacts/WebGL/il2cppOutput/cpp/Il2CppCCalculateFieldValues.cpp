@@ -17846,34 +17846,14 @@ struct TimeSpanRawInfo_tDB52E4C9854A909DB47D2FEF0A1114A57F3C29FA_marshaled_com
 	ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ____literals5_20;
 };
 
-// AnchorARContent
-struct AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// DetachOnceVisible
+struct DetachOnceVisible_t1852D1C8DC92EEE2A21CF304338F8F2DC0C21AFF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// Zappar.ZapparImageTrackingTarget AnchorARContent::imageTracker
-	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___imageTracker_4;
-	// System.Boolean AnchorARContent::hasAnchored
-	bool ___hasAnchored_5;
-};
-
-// DetachARScene
-struct DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// Zappar.ZapparImageTrackingTarget DetachARScene::tracker
+	// Zappar.ZapparImageTrackingTarget DetachOnceVisible::tracker
 	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___tracker_4;
-	// UnityEngine.GameObject DetachARScene::trackedContent
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trackedContent_5;
-	// System.Boolean DetachARScene::detached
-	bool ___detached_6;
-};
-
-// DetachOnceSeen
-struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// Zappar.ZapparImageTrackingTarget DetachOnceSeen::imageTracker
-	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___imageTracker_4;
-	// UnityEngine.GameObject DetachOnceSeen::contentRoot
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___contentRoot_5;
-	// System.Boolean DetachOnceSeen::hasDetached
+	// UnityEngine.Transform DetachOnceVisible::trackedContent
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___trackedContent_5;
+	// System.Boolean DetachOnceVisible::hasDetached
 	bool ___hasDetached_6;
 };
 
@@ -25224,17 +25204,9 @@ struct RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_StaticFields
 
 // System.Globalization.TimeSpanParse/TimeSpanRawInfo
 
-// AnchorARContent
+// DetachOnceVisible
 
-// AnchorARContent
-
-// DetachARScene
-
-// DetachARScene
-
-// DetachOnceSeen
-
-// DetachOnceSeen
+// DetachOnceVisible
 
 // Zappar.Examples.RandomColor
 
@@ -28953,12 +28925,6 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2028[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2033[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2041[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2041[3] = 
 {
-	static_cast<int32_t>(offsetof(AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E, ___imageTracker_4)),static_cast<int32_t>(offsetof(AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E, ___hasAnchored_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2042[3] = 
-{
-	static_cast<int32_t>(offsetof(DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206, ___tracker_4)),static_cast<int32_t>(offsetof(DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206, ___trackedContent_5)),static_cast<int32_t>(offsetof(DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206, ___detached_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2043[3] = 
-{
-	static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___imageTracker_4)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___contentRoot_5)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___hasDetached_6)),};
+	static_cast<int32_t>(offsetof(DetachOnceVisible_t1852D1C8DC92EEE2A21CF304338F8F2DC0C21AFF, ___tracker_4)),static_cast<int32_t>(offsetof(DetachOnceVisible_t1852D1C8DC92EEE2A21CF304338F8F2DC0C21AFF, ___trackedContent_5)),static_cast<int32_t>(offsetof(DetachOnceVisible_t1852D1C8DC92EEE2A21CF304338F8F2DC0C21AFF, ___hasDetached_6)),};

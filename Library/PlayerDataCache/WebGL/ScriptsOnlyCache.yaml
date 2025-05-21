@@ -1,8 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - DetachARScene
-    - DetachOnceSeen
+    - DetachOnceVisible
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -21,13 +20,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
-  methodsToPreserve:
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
+  methodsToPreserve: []
   sceneClasses:
     Assets/Samples/Universal AR/3.2.10/Examples/ImageTracker.unity:
     - Class: 1
@@ -69,9 +62,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5174}
     - Class: 114
-      Script: {instanceID: 25732}
-    - Class: 114
-      Script: {instanceID: 27630}
+      Script: {instanceID: 29820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -961,22 +952,10 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 6a5d282dfe2d0fc59078c66e9e4c6a54
+      Hash: b016cc378fe4b7e62df27814a686ba09
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: AnchorARContent
-  - hash:
-      serializedVersion: 2
-      Hash: 7a339c34865241ccd0edba183ea45ac5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DetachOnceSeen
-  - hash:
-      serializedVersion: 2
-      Hash: 24b1f64da7fd6176d37dcedcea7a6b0d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DetachARScene
+    className: DetachOnceVisible
   platform: 20
   scenePathNames:
   - Assets/Samples/Universal AR/3.2.10/Examples/ImageTracker.unity

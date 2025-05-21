@@ -3,8 +3,8 @@
     {
       "type": "il2cppData",
       "msg": {
-        "build_event_id": "ef74ebc76e42f4f50b88149291b5830b",
-        "node_executed": false,
+        "build_event_id": "385d81808d5be40b1b3df6078f6fb039",
+        "node_executed": true,
         "attribute_total_count_eager_static_constructor": 7,
         "attribute_total_count_set_option": 0,
         "attribute_total_count_generate_into_own_cpp_file": 0,
@@ -40,22 +40,27 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "ef74ebc76e42f4f50b88149291b5830b",
-        "build_player": 7051,
-        "preprocess_player": 39,
-        "produce_player_script_assemblies": 1943,
-        "build_scripts_dlls": 420,
-        "writing_asset_files": 80,
-        "postprocess_built_player": 1165,
-        "node_summary_table": []
+        "build_event_id": "385d81808d5be40b1b3df6078f6fb039",
+        "build_player": 127034,
+        "preprocess_player": 42,
+        "produce_player_script_assemblies": 3266,
+        "build_scripts_dlls": 302,
+        "writing_asset_files": 101,
+        "postprocess_built_player": 120281,
+        "node_summary_table": [
+          {
+            "name": "Csc",
+            "duration": 317
+          }
+        ]
       },
       "version": 1
     },
     {
       "type": "unityLinkerData",
       "msg": {
-        "build_event_id": "ef74ebc76e42f4f50b88149291b5830b",
-        "node_executed": false,
+        "build_event_id": "385d81808d5be40b1b3df6078f6fb039",
+        "node_executed": true,
         "attribute_marked_count_always_link_assembly": 0,
         "attribute_swept_count_always_link_assembly": 0,
         "attribute_total_count_always_link_assembly": 0,
@@ -95,11 +100,11 @@
         "recognized_reflection_access_core_count": 29,
         "recognized_reflection_access_unity_count": 1,
         "recognized_reflection_access_user_count": 0,
-        "link_xml_total_count": 9,
+        "link_xml_total_count": 8,
         "link_xml_embedded_count": 1,
         "link_xml_embedded_unity_count": 0,
         "link_xml_embedded_user_count": 0,
-        "link_xml_file_count": 8,
+        "link_xml_file_count": 7,
         "link_xml_assembly_preserve_all_total_count": 0,
         "link_xml_assembly_preserve_all_unity_count": 0,
         "link_xml_assembly_preserve_all_core_count": 0,

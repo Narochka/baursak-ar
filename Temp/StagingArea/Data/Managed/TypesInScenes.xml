@@ -1,7 +1,6 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="DetachARScene" preserve="nothing"/>
-		<type fullname="DetachOnceSeen" preserve="nothing"/>
+		<type fullname="DetachOnceVisible" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine">
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>

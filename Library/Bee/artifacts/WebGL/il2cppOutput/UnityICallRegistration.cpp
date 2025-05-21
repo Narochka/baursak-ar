@@ -60,6 +60,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.AsyncOperation
 
+	//Start Registrations for type : UnityEngine.Behaviour
+
+		//System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
+		void Register_UnityEngine_Behaviour_set_enabled();
+		Register_UnityEngine_Behaviour_set_enabled();
+
+	//End Registrations for type : UnityEngine.Behaviour
+
 	//Start Registrations for type : UnityEngine.Camera
 
 		//System.Int32 UnityEngine.Camera::GetAllCamerasCount()

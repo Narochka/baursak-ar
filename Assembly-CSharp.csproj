@@ -62,9 +62,7 @@
     <Analyzer Include="/Users/narabikkina/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/AnchorARContent.cs" />
-    <Compile Include="Assets/Scripts/DetachOnceSeen.cs" />
-    <Compile Include="Assets/Scripts/DetachARScene.cs" />
+    <Compile Include="Assets/Scripts/DetachOnceVisible.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

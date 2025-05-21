@@ -21849,39 +21849,19 @@ struct SingletonMono_1_tAABDB44D5E1C3FCE63E118790B738C7E6CA9FFB6  : public MonoB
 {
 };
 
-// AnchorARContent
-struct AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// Zappar.ZapparImageTrackingTarget AnchorARContent::imageTracker
-	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___imageTracker_4;
-	// System.Boolean AnchorARContent::hasAnchored
-	bool ___hasAnchored_5;
-};
-
 // UnityEngine.AudioListener
 struct AudioListener_t1D629CE9BC079C8ECDE8F822616E8A8E319EAE35  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
 {
 };
 
-// DetachARScene
-struct DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// DetachOnceVisible
+struct DetachOnceVisible_t1852D1C8DC92EEE2A21CF304338F8F2DC0C21AFF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// Zappar.ZapparImageTrackingTarget DetachARScene::tracker
+	// Zappar.ZapparImageTrackingTarget DetachOnceVisible::tracker
 	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___tracker_4;
-	// UnityEngine.GameObject DetachARScene::trackedContent
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trackedContent_5;
-	// System.Boolean DetachARScene::detached
-	bool ___detached_6;
-};
-
-// DetachOnceSeen
-struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// Zappar.ZapparImageTrackingTarget DetachOnceSeen::imageTracker
-	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___imageTracker_4;
-	// UnityEngine.GameObject DetachOnceSeen::contentRoot
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___contentRoot_5;
-	// System.Boolean DetachOnceSeen::hasDetached
+	// UnityEngine.Transform DetachOnceVisible::trackedContent
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___trackedContent_5;
+	// System.Boolean DetachOnceVisible::hasDetached
 	bool ___hasDetached_6;
 };
 
@@ -31979,21 +31959,13 @@ struct RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_StaticFields
 
 // System.Globalization.TimeSpanParse/TimeSpanRawInfo
 
-// AnchorARContent
-
-// AnchorARContent
-
 // UnityEngine.AudioListener
 
 // UnityEngine.AudioListener
 
-// DetachARScene
+// DetachOnceVisible
 
-// DetachARScene
-
-// DetachOnceSeen
-
-// DetachOnceSeen
+// DetachOnceVisible
 
 // System.IO.DirectoryInfo
 
@@ -36226,17 +36198,13 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize2039 = { sizeof(ThrowStub_t9
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2040;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2040 = { sizeof(U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2041;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2041 = { sizeof(AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2041 = { sizeof(DetachOnceVisible_t1852D1C8DC92EEE2A21CF304338F8F2DC0C21AFF), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2042;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2042 = { sizeof(DetachARScene_tBC94B27EA13AD843500820CD91A2980431A58206), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2042 = { 0, sizeof(Il2CppIActivationFactory*), 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2043;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2043 = { sizeof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2043 = { sizeof(Il2CppComObject), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2044;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2044 = { 0, sizeof(Il2CppIActivationFactory*), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2045;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2045 = { sizeof(Il2CppComObject), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2046;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2046 = { sizeof(__Il2CppComDelegate_tD0DD2BBA6AC8F151D32B6DFD02F6BDA339F8DC4D), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2044 = { sizeof(__Il2CppComDelegate_tD0DD2BBA6AC8F151D32B6DFD02F6BDA339F8DC4D), -1, 0, 0 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
