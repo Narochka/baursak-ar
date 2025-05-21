@@ -3,8 +3,8 @@
     {
       "type": "il2cppData",
       "msg": {
-        "build_event_id": "96fe01901388046698e7d94925734a22",
-        "node_executed": true,
+        "build_event_id": "5696dfe8da2b447149bfeca267da6155",
+        "node_executed": false,
         "attribute_total_count_eager_static_constructor": 7,
         "attribute_total_count_set_option": 0,
         "attribute_total_count_generate_into_own_cpp_file": 0,
@@ -40,26 +40,21 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "96fe01901388046698e7d94925734a22",
-        "build_player": 126841,
-        "preprocess_player": 46,
-        "produce_player_script_assemblies": 2879,
-        "build_scripts_dlls": 342,
-        "writing_asset_files": 60,
-        "postprocess_built_player": 121939,
-        "node_summary_table": [
-          {
-            "name": "Csc",
-            "duration": 256
-          }
-        ]
+        "build_event_id": "5696dfe8da2b447149bfeca267da6155",
+        "build_player": 12146,
+        "preprocess_player": 41,
+        "produce_player_script_assemblies": 2196,
+        "build_scripts_dlls": 415,
+        "writing_asset_files": 67,
+        "postprocess_built_player": 6419,
+        "node_summary_table": []
       },
       "version": 1
     },
     {
       "type": "unityLinkerData",
       "msg": {
-        "build_event_id": "96fe01901388046698e7d94925734a22",
+        "build_event_id": "5696dfe8da2b447149bfeca267da6155",
         "node_executed": true,
         "attribute_marked_count_always_link_assembly": 0,
         "attribute_swept_count_always_link_assembly": 0,
@@ -100,11 +95,11 @@
         "recognized_reflection_access_core_count": 29,
         "recognized_reflection_access_unity_count": 1,
         "recognized_reflection_access_user_count": 0,
-        "link_xml_total_count": 8,
+        "link_xml_total_count": 9,
         "link_xml_embedded_count": 1,
         "link_xml_embedded_unity_count": 0,
         "link_xml_embedded_user_count": 0,
-        "link_xml_file_count": 7,
+        "link_xml_file_count": 8,
         "link_xml_assembly_preserve_all_total_count": 0,
         "link_xml_assembly_preserve_all_unity_count": 0,
         "link_xml_assembly_preserve_all_core_count": 0,

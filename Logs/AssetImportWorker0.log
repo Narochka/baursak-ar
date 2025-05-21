@@ -2699,3 +2699,200 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2461.093977 seconds.
+  path: Assets/Samples/Universal AR/3.2.10/Examples/MultiImageTracker.unity
+  artifactKey: Guid(d38890af6d765a6498711be1b5d731c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal AR/3.2.10/Examples/MultiImageTracker.unity using Guid(d38890af6d765a6498711be1b5d731c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba4898901eec19ae0aa1468a470a5cf') in 0.002936 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004432 seconds.
+  path: Assets/WebGLTemplates/Zappar/favicon.ico
+  artifactKey: Guid(ec5b0ffdb5a424170954e502ce59eb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/WebGLTemplates/Zappar/favicon.ico using Guid(ec5b0ffdb5a424170954e502ce59eb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd6f41cb52929583305a5253e659d87') in 0.831880 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008020 seconds.
+  path: Assets/Samples/Universal AR/3.2.10/Examples/FaceMesh.unity
+  artifactKey: Guid(90c93dece33d1984899fc66d14d6edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal AR/3.2.10/Examples/FaceMesh.unity using Guid(90c93dece33d1984899fc66d14d6edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0e7b2d224563693f3353065c473293') in 0.001266 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005088 seconds.
+  path: Assets/Samples/Universal AR/3.2.10/Examples/ImageTracker.unity
+  artifactKey: Guid(f30d047eeed11304ebbed1d9ca0edf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal AR/3.2.10/Examples/ImageTracker.unity using Guid(f30d047eeed11304ebbed1d9ca0edf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfdaa49875fdc85fca3bf7316ffc4a0') in 0.001449 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003953 seconds.
+  path: Assets/WebGLTemplates/Zappar
+  artifactKey: Guid(887a554e6bffc42c7912afe3ece1358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/WebGLTemplates/Zappar using Guid(887a554e6bffc42c7912afe3ece1358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17471d1eb241020e0e4a24a54688a946') in 0.001342 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002808 seconds.
+  path: Assets/Samples/Universal AR/3.2.10/Examples/FaceLandmark.unity
+  artifactKey: Guid(327767f1acd932a4cb5a76eb9cc493e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal AR/3.2.10/Examples/FaceLandmark.unity using Guid(327767f1acd932a4cb5a76eb9cc493e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647c0ce3003d7df8992c1b98b5f4294a') in 0.001502 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003870 seconds.
+  path: Assets/Samples/Universal AR/3.2.10/Examples/MultiFaceTracker.unity
+  artifactKey: Guid(0e83710c017de3744883a119c5def942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal AR/3.2.10/Examples/MultiFaceTracker.unity using Guid(0e83710c017de3744883a119c5def942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c12f1aeaf983ae2dbcf18ac4e461cf') in 0.001635 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007474 seconds.
+  path: Assets/Samples/Universal AR/3.2.10/Examples/Scripts
+  artifactKey: Guid(765bbfbe9d4fa8641bb24b36336e2a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal AR/3.2.10/Examples/Scripts using Guid(765bbfbe9d4fa8641bb24b36336e2a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e809843eff8db27cb56bc1000d698c') in 0.001314 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008276 seconds.
+  path: Assets/Scripts/DetachOnceVisible.cs
+  artifactKey: Guid(52fb905a5eb484917af69f608ff2a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/DetachOnceVisible.cs using Guid(52fb905a5eb484917af69f608ff2a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa50875a83171cdae0f5dcbf8ead9dd2') in 0.002128 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002651 seconds.
+  path: Assets/WebGLTemplates/Zappar2019
+  artifactKey: Guid(f84629a5e222f49c89811ec60461e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/WebGLTemplates/Zappar2019 using Guid(f84629a5e222f49c89811ec60461e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b843a77b9c9fa51925b5724dfce03c') in 0.001404 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015844 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(cb794869cd1af46ceafc782ea4b68212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(cb794869cd1af46ceafc782ea4b68212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c545f3255fadc2f58db0a28dbf71a3') in 0.001396 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005000 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.001421 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006301 seconds.
+  path: Assets/WebGLTemplates/Zappar/index.html
+  artifactKey: Guid(fcd8697f33dd14f529634757514149e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/WebGLTemplates/Zappar/index.html using Guid(fcd8697f33dd14f529634757514149e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19d8314be12fb2d610ebead36235821') in 0.462173 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002976 seconds.
+  path: Assets/WebGLTemplates
+  artifactKey: Guid(7f36ccd5b7715416180668fc7370773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/WebGLTemplates using Guid(7f36ccd5b7715416180668fc7370773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff27768ad35074623e71ca58730233a1') in 0.001789 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006205 seconds.
+  path: Assets/WebGLTemplates/Zappar2019/favicon.ico
+  artifactKey: Guid(02190c8e51bab40c9ad18393acf035de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/WebGLTemplates/Zappar2019/favicon.ico using Guid(02190c8e51bab40c9ad18393acf035de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8270392225cc30fc5672b241528296c2') in 0.002545 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004608 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(fa1d466cab6b2432b92324005655a64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/New Material.mat using Guid(fa1d466cab6b2432b92324005655a64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654e71cceba01cf33996b012482f5a8a') in 0.148011 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002517 seconds.
+  path: Assets/StreamingAssets/cover 1.zpt
+  artifactKey: Guid(9b20b45486aa5471a898ad775f66be42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StreamingAssets/cover 1.zpt using Guid(9b20b45486aa5471a898ad775f66be42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2484d775296b3e92ca2eb89ea63c411a') in 0.013922 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005911 seconds.
+  path: Assets/Samples/Universal AR/3.2.10/Examples/FaceTracker.unity
+  artifactKey: Guid(b1385c120b7dc67468ed55e634612a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal AR/3.2.10/Examples/FaceTracker.unity using Guid(b1385c120b7dc67468ed55e634612a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c495a7304e93ccc40d2f56dff032cd5d') in 0.001476 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001579 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(9cbef5bda88e245bd8ad7f1cff37d9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StreamingAssets using Guid(9cbef5bda88e245bd8ad7f1cff37d9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5124ae93dbb109686e6eb526fd0f3afc') in 0.001314 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001750 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(457e0b62d612744d19cb2c084900902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials using Guid(457e0b62d612744d19cb2c084900902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a635f04df4e974b35b978badee084ecd') in 0.001252 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002383 seconds.
+  path: Assets/Samples/Universal AR/3.2.10/Examples/Scripts/RandomColor.cs
+  artifactKey: Guid(55af8d343a1e50c4ca7c9bbc192febe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal AR/3.2.10/Examples/Scripts/RandomColor.cs using Guid(55af8d343a1e50c4ca7c9bbc192febe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90cc6ce7664fc5503b35054de21143d') in 0.002014 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002533 seconds.
+  path: Assets/WebGLTemplates/Zappar2019/index.html
+  artifactKey: Guid(29ac895c5d0c54a20a243eb1c98736a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/WebGLTemplates/Zappar2019/index.html using Guid(29ac895c5d0c54a20a243eb1c98736a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85e84ab1d2a2c23d658de819c7f07f0') in 0.002517 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 23.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.38 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (21.9 KB). Loaded Objects now: 3735.
+Memory consumption went from 74.6 MB to 74.6 MB.
+Total: 11.637217 ms (FindLiveObjects: 0.490517 ms CreateObjectMapping: 0.309913 ms MarkObjects: 10.794903 ms  DeleteObjects: 0.040271 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -20,7 +20,10 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Transform
+    methodName: SetParent
   sceneClasses:
     Assets/Samples/Universal AR/3.2.10/Examples/ImageTracker.unity:
     - Class: 1

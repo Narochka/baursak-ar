@@ -1,0 +1,7 @@
+<linker>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Transform">
+			<method name="SetParent"/>
+		</type>
+	</assembly>
+</linker>
