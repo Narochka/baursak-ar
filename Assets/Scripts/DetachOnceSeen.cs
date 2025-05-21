@@ -3,28 +3,20 @@ using Zappar;
 
 public class DetachOnceSeen : MonoBehaviour
 {
-    public ZapparImageTrackingTarget imageTracker;  // перетащи свой трекер
-    public GameObject trackedContent;              // AR-сцена в трекере
-    public Transform worldAnchor;                  // пустой якорь вне трекера
+    public ZapparImageTrackingTarget ImageTracker;
+    public GameObject TrackedContent;
+    public Transform WorldAnchor;
 
-    private bool hasCopied = false;
+    private bool hasDetached = false;
 
-    void Start()
+    void Update()
     {
-        imageTracker.OnSeenEvent.AddListener(CopyAndDetach);
-    }
-
-    void CopyAndDetach()
-    {
-        if (hasCopied) return;
-
-        // Клонируем контент
-        GameObject clone = Instantiate(trackedContent, trackedContent.transform.position, trackedContent.transform.rotation);
-        clone.transform.SetParent(worldAnchor, true);
-
-        // Отключаем оригинал
-        trackedContent.SetActive(false);
-
-        hasCopied = true;
+        // Вызов метода AnchorPoseCameraRelative()
+        if (!hasDetached && ImageTracker.AnchorPoseCameraRelative() != Matrix4x4.zero)
+        {
+            Debug.Log("🟢 Target detected — detaching content.");
+            TrackedContent.transform.SetParent(WorldAnchor, true);
+            hasDetached = true;
+        }
     }
 }

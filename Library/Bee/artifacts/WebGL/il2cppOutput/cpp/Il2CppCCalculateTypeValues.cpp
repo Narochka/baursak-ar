@@ -21866,14 +21866,14 @@ struct AudioListener_t1D629CE9BC079C8ECDE8F822616E8A8E319EAE35  : public AudioBe
 // DetachOnceSeen
 struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// Zappar.ZapparImageTrackingTarget DetachOnceSeen::imageTracker
-	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___imageTracker_4;
-	// UnityEngine.GameObject DetachOnceSeen::trackedContent
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trackedContent_5;
-	// UnityEngine.Transform DetachOnceSeen::worldAnchor
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___worldAnchor_6;
-	// System.Boolean DetachOnceSeen::hasCopied
-	bool ___hasCopied_7;
+	// Zappar.ZapparImageTrackingTarget DetachOnceSeen::ImageTracker
+	ZapparImageTrackingTarget_t5FB68844BECB3B7CC0E059F648ACF7C98696AC97* ___ImageTracker_4;
+	// UnityEngine.GameObject DetachOnceSeen::TrackedContent
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___TrackedContent_5;
+	// UnityEngine.Transform DetachOnceSeen::WorldAnchor
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___WorldAnchor_6;
+	// System.Boolean DetachOnceSeen::hasDetached
+	bool ___hasDetached_7;
 };
 
 // System.IO.DirectoryInfo

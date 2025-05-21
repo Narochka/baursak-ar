@@ -250,9 +250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 871339622340649a99d2cb016965a89b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imageTracker: {fileID: 706611612}
-  trackedContent: {fileID: 2136515889}
-  worldAnchor: {fileID: 402976748}
+  ImageTracker: {fileID: 706611612}
+  TrackedContent: {fileID: 2136515889}
+  WorldAnchor: {fileID: 402976748}
 --- !u!4 &402976748
 Transform:
   m_ObjectHideFlags: 0
