@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using Zappar;
 
 public class DetachOnceSeen : MonoBehaviour
@@ -13,15 +14,20 @@ public class DetachOnceSeen : MonoBehaviour
     {
         if (!hasDetached && ImageTracker.AnchorPoseCameraRelative() != Matrix4x4.zero)
         {
-            Debug.Log("🟢 Target detected — detaching and deactivating tracker");
-
-            // Открепляем контент от трекера
-            TrackedContent.transform.SetParent(WorldAnchor, true);
-
-            // Деактивируем сам трекер, чтобы он больше не прятал объекты
-            ImageTracker.gameObject.SetActive(false);
-
+            Debug.Log("🟢 Target detected — starting detach process");
+            StartCoroutine(DetachNextFrame());
             hasDetached = true;
         }
+    }
+
+    IEnumerator DetachNextFrame()
+    {
+        // Ждём один кадр
+        yield return null;
+
+        // Открепляем объект и отключаем трекер
+        TrackedContent.transform.SetParent(WorldAnchor, true);
+        ImageTracker.gameObject.SetActive(false);
+        Debug.Log("📦 Content detached and tracker deactivated");
     }
 }

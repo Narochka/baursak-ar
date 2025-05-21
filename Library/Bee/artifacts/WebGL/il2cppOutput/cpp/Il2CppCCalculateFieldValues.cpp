@@ -502,6 +502,8 @@ struct Delegate_t;
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
 // System.Runtime.Serialization.DeserializationEventHandler
 struct DeserializationEventHandler_t69A452A1DAD6B8D35D35D800CE2F2C9D156AF2B5;
+// DetachOnceSeen
+struct DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8;
 // UnityEngine.Networking.DownloadHandler
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB;
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
@@ -4588,6 +4590,17 @@ struct DelegateEntry_tEF8C32582207CB5E2FE7AE07C62560D8CDA846DC  : public Runtime
 	String_t* ___methodName_5;
 	// System.DelegateSerializationHolder/DelegateEntry System.DelegateSerializationHolder/DelegateEntry::delegateEntry
 	DelegateEntry_tEF8C32582207CB5E2FE7AE07C62560D8CDA846DC* ___delegateEntry_6;
+};
+
+// DetachOnceSeen/<DetachNextFrame>d__5
+struct U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3  : public RuntimeObject
+{
+	// System.Int32 DetachOnceSeen/<DetachNextFrame>d__5::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object DetachOnceSeen/<DetachNextFrame>d__5::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// DetachOnceSeen DetachOnceSeen/<DetachNextFrame>d__5::<>4__this
+	DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8* ___U3CU3E4__this_2;
 };
 
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg
@@ -20914,6 +20927,10 @@ struct U3CU3Ec_tAF2F613E4FF47CAC6DBA56BEC5C5B2884B36E278_StaticFields
 
 // System.DelegateSerializationHolder/DelegateEntry
 
+// DetachOnceSeen/<DetachNextFrame>d__5
+
+// DetachOnceSeen/<DetachNextFrame>d__5
+
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg
 
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg
@@ -28937,12 +28954,15 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2023[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2028[3] = 
 {
 	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap_0)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap_1)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2033[4] = 
-{
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2041[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2031[2] = 
 {
 	static_cast<int32_t>(offsetof(AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E, ___imageTracker_4)),static_cast<int32_t>(offsetof(AnchorARContent_tC4D80D426780B7D63C56B7F2DF2978F492D8815E, ___hasAnchored_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2042[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2032[3] = 
+{
+	static_cast<int32_t>(offsetof(U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CDetachNextFrameU3Ed__5_t4514B2137EDF2F25A78CE85D7E92C40B64AEEFE3, ___U3CU3E4__this_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2033[4] = 
 {
 	static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___ImageTracker_4)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___TrackedContent_5)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___WorldAnchor_6)),static_cast<int32_t>(offsetof(DetachOnceSeen_t98E2447E3B1AE1F176F95417C03DCD26AA689EA8, ___hasDetached_7)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2037[4] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
