@@ -1,0 +1,8 @@
+<linker>
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>
